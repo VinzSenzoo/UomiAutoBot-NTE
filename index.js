@@ -191,7 +191,7 @@ function loadAccounts() {
       throw new Error("No accounts found in account.json");
     }
     accounts.forEach((account, index) => {
-      if (!account.privateKey || !account.token) {
+      if (!account.privateKey) {
         throw new Error(`Account at index ${index} is missing privateKey or token`);
       }
     });
