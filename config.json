@@ -1,0 +1,12 @@
+{
+  "swapRepetitions": 3,
+  "uomiSwapRange": {
+    "min": 0.02,
+    "max": 0.03
+  },
+  "addLpRepetitions": 2,
+  "wuomiAddLpRange": {
+    "min": 0.02,
+    "max": 0.03
+  }
+}
